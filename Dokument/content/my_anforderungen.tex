@@ -1,0 +1,74 @@
+\section{Aktualisierte Anforderungen}
+\label{cha:ext_server}
+Im folgenden Kaptiel wird auf die Anforderungen eingegangen, die aus Sicht des Autors nötig sind, um das Spiel umzusetzen.
+
+GUI mit verschiedenen Fenstern, bzw. Layern
+folgende Informationen sollen einsehbar und Funktionen Nutzbar sein.
+
+Tier: idle screen
+Der Hauptbildschirm, sowie die Anzeige während der Spieler inaktiv ist unterteilt sich in 2 unterschiedliche Modi. Sollte der Spieler, wie es zu Spielbeginn vorgesehen ist, schon ein Tier haben, wird es auf diesem Bildschirm angezeigt. Es können verschiedene Animationsketten durchlaufen werden und die Hintergrundmusik wird abgespielt. Sollte die erste Spielphase abgelaufen sein, wird ein Knopf angezeigt, mit dem man ein neues Tier "erstellen" kann. Nach Betätigung des Knopfes werden die Werte für das neue Tier automatisch anhand der Datenbank auf dem Server generiert und es werden wieder die Animationsketten, des Tieres wiedergegeben. 
+
+items: overlay
+Über einen Knopf am unteren Rand des Bildschirms gelangt man zu den Gegenständen, die ein Spieler einsetzen kann. Nach Betätigung wird ein Overlay Menü angezeigt, auf dem der Spieler die entsprechenden Items, die er einsetzten kann angezeigt werden, zudem wird ein kleiner Infotext daneben angezeigt, der genauere Informationen darüber gibt, welchen Einfluss das nebenstehende Item hat. Des Weiteren befindet sich am Gegenstand in der rechten unteren Ecke eine Zahl, die angibt, wie oft man den Gegenstand noch benutzen kann.
+
+status: overlay
+Im Status Fenster wird angezeigt, an welcher Position man sein Tier gefangen bzw. generiert hat. Zudem sind hier Informationen über das Alter des Tieres zu finden. Damit der Spieler sehen kann, wie lange sein Tier schon lebt und wie viel Lebenszeit ihm noch zur Verfügung steht. Hinzu kommen, die einzelnen Werte des Tieres, also Stärke, Intelligenz, Glück, Charisma, Geschick. Bei diesen Werten ist jedoch zu beachten, dass sie nicht von Anfang an in Gänze angezeigt werden, sondern jeden Tag ein zufälliger Wert aufgedeckt wird.
+
+options: overlay
+Die Optionen sind ein weiteres Fenster, das über den Idle Screen gelegt wird. Hier kann eingestellt werden, ich welchem Intervall die Position des Spielers abgefragt, wird. Hierzu hat der Spieler einen Schieberegler, mit dem er das Intervall in einem Zeitraum von 10 Sekunden und 5 Minuten eingestellt werden kann. Zudem gibt es eine Checkbox, in der gewählt werden kann, ob jeweils beim starten der App sofort die Position bestimmt werden soll. Weitere Optionen sind zum einen die Lautstärke der Hintergrundmusik sowie die Lautstärke der Soundeffekte, die bei dem betätigen eines Buttons abgespielt werden. Zum anderen eine weitere Checkbox, mit der der Spieler entscheiden kann, ob er auch außerhalb der App darüber benachrichtigt werden möchte, wenn ein anderer Spieler sich in einem Kampf mit ihm befindet.
+
+karte: map screen
+Der Karten Bildschirm teilt sich in drei Anzeigepunkte auf. Durch einen Reiter am rechten Bildschirmrand kann der Spieler wählen welchen Teil er sehen möchte. Der obere Reiter ist mit dem Namen Umgebung betitelt und Zeigt an, welche Reviere sich in direkter Umgebung des Spielers befinden. Dabei werden nur Reviere berücksichtigt, die der Spieler am aktuellen Tag noch nicht besucht hat. Seine eigenen Reviere werden dort auch nicht angezeigt. Es werden also nur Orte dargestellt, an denen der Spieler spielen kann. Der mittlere Reiter trägt den Titel besucht. Hier werden Reviere angezeigt, in denen der Spieler am aktuellen Tag gekämpft hat. Der untere und somit letzte Reiter ist mit dem Titel Reviere betitelt. Hier kann der Spieler sehen, welche Reviere er für sich beansprucht hat. 
+
+kampf: battle screen
+Der Kampfbildschirm wird automatisch angezeigt, sobald ermittelt worden ist, das sich der Spieler im Revier eines anderen Spielers befindet. Der Spieler, der das Revier eines anderen Spielers betritt, erhält aus seinem Smartphonebildschirm ein neues Fenster auf dem er das Tiere des konkurrierenden Spielers sehen kann. Sternförmig um das Tier des Gegners werden die Werte angezeigt mit denen er angreifen kann. Nachdem er seine Wahl getroffen hat, erhält er noch eine kurze Einblendung, die ihn über Sieg oder Niederlage benachrichtigt.
+
+Highscore
+Der letzte Bildschirm zeigt die Rangliste der Spieler an. Es handelt sich hierbei lediglich um eine Liste, auf der der Spieler sehen kann, auf welcher Position er sich aktuell befindet. 
+
+%\section{Umgang mit Problemstellungen} 
+%%\label{sec:}
+%
+%
+%\subsection{Gefahrenzonen} 
+%%\label{sec:}
+%Es gibt mehrere verschiedene Möglichkeiten Gefahrenzonen auszuschließen. Der erste Gedanke könnte hierbei sein, die Gebiete zu sperren. Dies könnte geschehen, indem sich der oder die Entwickler Karten zur Hand nehmen und entscheiden, welche Gebiete Gefahrenzonen sind und diese zu markieren. Damit einher geht aber ein sehr großer Zeitaufwand. Da die Karten nicht nur ausgewertet werden müssen, sondern auch für die Spielclients festgehalten muss, an welchen Orten das Spiel gespielt werden kann. Hinzu kommt die Fehleranfälligkeit. Da die Karten wie gesagt ausgewertet werden müssen, sollte man so ein Projekt sogar nur einem Land wie zum Beispiel Deutschland ausführen, wäre es kaum möglich alle Gebiete vernünftig abzudecken. Ein anderer Ansatz solche Gebiete zu sperren, wäre einen Alogrihtmus zu entwicklen, welcher Karten analysieren kann. Doch hierzu muss erst einmal festgestellt werden, wo und in weit es sich um Gefahrenzone handelt. Somit ist dieser Ansatz auch eher unpraktikabel. Das einzige, was von Umfang her entwickelbar wäre, wäre ein System, bei dem die Spieler selber entscheiden können, ob ein Gebiet in die Kategorie Gefahrenzone fällt. So könnte man im Spielclient in den Optionen eine Funktion anbieten, die den aktuellen Ort als Gefahrenzone, dies könnte dann wiederrum von einem kleineren Team kontinuirlich bearbeitet werden und so in die Datenbank eingetragen werden. Zu guter letzt gibt es aber noch eine andere Möglichkeit, die allen vorhergegangenen Praktiken unnötig machen würde. Hierbei sollte versucht werden Gefahrenzonen für Spieler unatraktiv zu machen und dies schon im zugrundeliegenden Spielkonzept beinhalten. Die Frage die sich dahinter verbirgt, ist die Frage, wie erreiche ich es Spielern leicht zugängliche Orte schmackhaft zu machen. Beim geocaching verhält es sich genau gegenteilig. Denn der Schwierigkeitsgrad beim Geochaching steigt mit der Zugäglichkeit des Caches. Ein spieler der einen Cache gehoben hat, welcher sich mitten unter einer Brücke befindet musste viel mehr auf sich nehmen als wenn er einen Cache gehoben hätte, welcher sich am Wegrand im Graben befindet. Durch die größere aufgewandte Arbeit, ist wie zuvor beschrieben auch das Glücksgefühl umso größer. Somit entsteht eine Spirale. Die Caches werden immer besser und unzugänglicher versteckt und die Spieler setzen immer mehr Werkzeuge ein um diese zu erreichen. In einem Videospiel hat man jedoch den Vorteil, das man den Schwierigkeitsgrad an vielen anderen Stellen anpassen kann. Nimmt man jetzt die Reviere in Augenschein, die die Spieler in dem zu entwickelnden Spiel erstellen sollen können, so muss darauf geachtet werden, dass die Zugänglichkeit der Ort dieser Reviere nur bedingt beeinflusst. Dadurch das der Spieler pro Tag diese Reviere aufsuchen sollte und auch Spieler dessen Reviere besucht werden Boni erhalten, würde somit die Spieler eher anspornen häufig besuchte und leicht erreichbare Orte als Revier zu markieren. Als Bonus könnte man zusätzlich noch die Funktion einbauen, dass Reviere markiert werden können, sollte ein verstoß oder ein Gefahrengebiet vorliegen. 
+%
+
+
+
+\section{Test mit Personanae}
+Hintergrundinformationen aus der Umfrage evtl. in den Personanae verarbeiten.
+
+
+\subsection{Persona - Fabian K.} 
+%\label{sec:}
+Ist 14 Jahre alt, Einzelkind, Schüler, Gymnasium, Lieblingsfächer: Mathe und Latein. \\ 
+Intelligenter guter Schüler, klein, zierlich, blond, unsportlich, musikalisch künstlerisch begabt und extrem ehrgeizig.   \\
+Verbringt seine gesamte Freizeit mit Computerspielen, ständig interessiert an Neuem, neue Spielen aber auch neuer Technik. \\
+Tauscht sich viel mit seinen Freunden aus (Facebook, WhatsApp usw.).
+Die Eltern und Großeltern unterstützen ihn finanziell, sodass er sich alle aktuellen Spiele auch leisten kann.
+
+\subsection{Persona - Margit S.} 
+%\label{sec:}
+Ist 40 Jahre alt. Unverheiratet. Bürokauffrau, groß kräftig, blond und überzeugte Raucherin.  \\
+Gutes Verhältnis zum ihren 4 Nichten und Neffen. Facebook Account, Verständnis und Interesse an der Jugend. \\
+Spielt gerne abends nach Feierabend und am Wochenende.\\
+Klassische Spiele, wie Spider-Solitär, aber durch den Kontakt zu den Nichten und Neffen gern auch mal etwas neues.
+
+\subsection{Persona - Ulrich B.} 
+%\label{sec:}
+Ist 50 Jahre alt, Autoverkäufer, selbstständig, schlank dunkelhaarig, Brille. \\
+Viel eigenverantwortlich unterwegs, im Auto und im Zug.\\
+Keine geregelte Freizeit. Spielt immer mal zwischen durch. \\
+Neugierig, ungeduldig, kennt alles um das Thema Auto.
+
+\subsection{Persona - Angela L.} 
+%\label{sec:}
+38 Jahre alt, Bankkauffrau. \\
+Verheiratet. 2 Töchter, Johanna und Victoria, 8 und 9 Jahre alt, arbeitet 3 Tage die Woche. 
+Sie ist dunkelhaarig groß, schlank, selbstbewusst, weit gereist, Haushaltsmuffel, sozial engagiert,
+Spielt in ihrer Freizeit hauptsächlich Spiele mit ihren Kindern.
+
+
+

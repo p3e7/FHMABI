@@ -1,0 +1,33 @@
+\chapter{Architektur}
+\label{cha:my_server}
+Im Hinblick auf eine Realisierung des Spiels wird im letzten Kapitel noch ein Ausblick gegeben, ...
+
+Dieses Kapitel baut auf den Grundlagen von \textbf{??} auf und beschreibt im Detail, welche Inhalte in den Datenbanken abgelegt werden und wie diese in Abhängigkeit zueinander stehen.
+
+
+\section{Angelegte Datenbanken} 
+%\label{sec:}
+Es gibt mehrere zum Spiel gehörende Datenbanken. 
+Zu ihnen gehört eine \glqq shared\_value \grqq Tabelle, in der 
+
+
+
+Die extra für das Spiel angelegten Datenbanken machen sich diese Informationen zu Nutze und können so mittels eines PHP-Skripts virtuelle Tiere erzeugen und für die Spieler bereitstellen.
+Es gibt eine „asPetDB“ in der Informationen zu den jeweiligen Tieren hinterlegt sind.
+
+Des Weiteren sind in der asPlayerDB Daten zu den Spielern angelegt,  hieraus kann unter anderem ein Onlineprofil angelegt werden. Zudem befinden sich hier Verweise auf die jeweilige Homezone des Spielers. Es soll aber nicht möglich sein, Daten auszuspionieren.
+
+Die asItemDB beinhaltet die verschiedenen Gegenstände mit denen ein Tier gefüttert bzw.
+ausgerüstet werden kann. Zudem können den Items auch Orte und Spieler zugeordnet werden, damit Spieler Items verstecken können und andere Spieler sie finden können.
+
+In der as
+
+EventDB werden die Storyelemente und die zuvor genannten Eventpackages abgelegt.
+Um also einen neuen Storyabschnitt zu beginnen oder die Geschichte fortzusetzen, können hier einträge angelegt werden, welche beim nächsten login auf dem mobilen Endgerät angezeigt und heruntergeladen werden können.
+
+Wie der Name schon sagt, werden in der HomezoneDB die Flächen gespeichert, die sich ein Benutzer sichern möchte. 
+
+
+evtl hybrid (ausblick)\url{http://www.researchgate.net/publication/234797288_Adaptable_client-server_architecture_for_mobile_multiplayer_games}
+
+\url{http://dl.acm.org/citation.cfm?id=1808158&dl=ACM&coll=DL&CFID=409665202&CFTOKEN=31054973}

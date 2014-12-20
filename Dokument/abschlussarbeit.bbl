@@ -1,0 +1,145 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{BBG{\etalchar{+}}05b}
+
+\bibitem[.]{.}
+{\em 2008 First IEEE International Conference on Ubi-media Computing (U-Media
+  2008)}.
+
+\bibitem[ACG{\etalchar{+}}03]{al&ch}
+J{\'e}r{\'e}mie Allard, V.~Chinta, S.~Gundala, {Richard III, Golden G},
+  J.~Allard, and G.~G. Richard.
+\newblock Jini meets upnp: an architecture for jini/upnp interoperability.
+\newblock In {\em Applications and the Internet, 2003. Proceedings. 2003
+  Symposium on}, pages 268--275, 2003.
+
+\bibitem[.b]{.b}
+{\em 2008 International Conference on Control, Automation and Systems (ICCAS)}.
+
+\bibitem[BBG]{bo&bo&go}
+Andreas Bobek, Hendrik Bohn, and Frank Golatowski.
+\newblock {\em Voice-based generic UPnP Control Point}.
+\newblock PhD thesis, {University of Rostock}, Rostock.
+
+\bibitem[BBG{\etalchar{+}}05a]{bo&bo}
+A.~Bobek, H.~Bohn, F.~Golatowski, G.~Kachel, and A.~Spreen, editors.
+\newblock {\em Enabling workflow in UPNP networks}, 10-12 Aug., 2005.
+
+\bibitem[BBG{\etalchar{+}}05b]{bo&bob}
+A.~Bobek, H.~Bohn, F.~Golatowski, G.~Kachel, and A.~Spreen.
+\newblock Enabling workflow in upnp networks.
+\newblock In A.~Bobek, H.~Bohn, F.~Golatowski, G.~Kachel, and A.~Spreen,
+  editors, {\em Enabling workflow in UPNP networks}, pages 166--171, 10-12
+  Aug., 2005.
+
+\bibitem[Bod05]{bo}
+M.~P. Bodlaender.
+\newblock Upnp/sup tm/ 1.1 - designing for performance {\&} compatibility.
+\newblock {\em IEEE Transactions on Consumer Electronics}, 51(1):69--75, 2005.
+
+\bibitem[.c]{.c}
+{\em 2013 Fifth International Conference on Computational and Information
+  Sciences (ICCIS)}.
+
+\bibitem[CHS]{ch&hs&se}
+{Chuan-Feng Chiu}, Steen~J. Hsu, and {Sen-Ren Jan}.
+\newblock The design of upnp-based home environment over peer-to-peer overlay
+  network.
+\newblock In {\em 2008 First IEEE International Conference on Ubi-media
+  Computing (U-Media 2008)}, pages 508--512.
+
+\bibitem[CJHa]{co&ji&he}
+Xiangchao Cong, Shi Jieqin, and Ke~He, editors.
+\newblock {\em A communication network based on IEEE1394 and UPnP technology}.
+
+\bibitem[CJHb]{co&ji&heb}
+Xiangchao Cong, Shi Jieqin, and Ke~He.
+\newblock A communication network based on ieee1394 and upnp technology.
+\newblock In Xiangchao Cong, Shi Jieqin, and Ke~He, editors, {\em A
+  communication network based on IEEE1394 and UPnP technology}, pages 161--165.
+
+\bibitem[Dop06]{do}
+Jakob~S. Doppler.
+\newblock Entwicklung verteilter ger{\"a}te und anwendungen f{\"u}r die upnp
+  plattform unter besonderer ber{\"u}cksichtigung automatisch generierter user
+  interfaces.
+\newblock 2006.
+
+\bibitem[iec03]{iec}
+{\em Applications and the Internet, 2003. Proceedings. 2003 Symposium on},
+  2003.
+
+\bibitem[IEEa]{ie}
+IEEE, editor.
+\newblock {\em 2008 The Second International Conference on Mobile Ubiquitous
+  Computing, Systems, Services and Technologies (UBICOMM)}.
+
+\bibitem[IEEb]{ieb}
+IEEE, editor.
+\newblock {\em 2009 Second International Workshop on Computer Science and
+  Engineering}.
+
+\bibitem[JSP]{je&sa&pa}
+{Jeong-Seok Kang}, {Sang-Woo Maeng}, and Hong-Seong Park.
+\newblock Rbcc: Reservation-based concurrency control for distributed upnp
+  devices.
+\newblock In {\em 2008 International Conference on Control, Automation and
+  Systems (ICCAS)}, pages 880--883.
+
+\bibitem[KLKY02]{ki&le}
+Dong-Sung Kim, Jae-Min Lee, Wook~Hyun Kwon, and In~Kwan Yuh.
+\newblock Design and implementation of home network systems using upnp
+  middleware for networked appliances.
+\newblock {\em Consumer Electronics, IEEE Transactions on}, 48(4):963--972,
+  2002.
+
+\bibitem[LLZ09a]{li&li&zh}
+Fagui Liu, Kai Li, and Zhipeng Zhu, editors.
+\newblock {\em DLNA-Protocol-Based Media Server {\&} Its Application in HSS},
+  2009.
+
+\bibitem[LLZ09b]{li&li&zhb}
+Fagui Liu, Kai Li, and Zhipeng Zhu.
+\newblock Dlna-protocol-based media server {\&} its application in hss.
+\newblock In Fagui Liu, Kai Li, and Zhipeng Zhu, editors, {\em
+  DLNA-Protocol-Based Media Server {\&} Its Application in HSS}, pages
+  370--374, 2009.
+
+\bibitem[Moo13]{HDMoore.2013}
+HD~Moore.
+\newblock Security flaws in universal plug and play: Unplug. don't play., 2013.
+
+\bibitem[SCWG]{sh&wu&gu}
+Yu~Shi-Cai, Yan-Zhi Wu, and Run-Niu Guo.
+\newblock A upnp-based decentralized service discovery improved algorithm.
+\newblock In {\em 2013 Fifth International Conference on Computational and
+  Information Sciences (ICCIS)}, pages 1413--1416.
+
+\bibitem[SMa]{sl&mo}
+Ayman Sleman and Reinhard Moeller, editors.
+\newblock {\em Integration of Wireless Sensor Network Services into other Home
+  and Industrial networks; using Device Profile for Web Services (DPWS)}.
+
+\bibitem[SMb]{sl&mob}
+Ayman Sleman and Reinhard Moeller.
+\newblock Integration of wireless sensor network services into other home and
+  industrial networks; using device profile for web services (dpws).
+\newblock In Ayman Sleman and Reinhard Moeller, editors, {\em Integration of
+  Wireless Sensor Network Services into other Home and Industrial networks;
+  using Device Profile for Web Services (DPWS)}, pages 1--5.
+
+\bibitem[SSP{\etalchar{+}}]{sa&sa}
+{Sales,Thiago B. M. de}, Leandro M.~de Sales, Marcos Pereira, Hyggo Almeida,
+  Angelo Perkusich, Kyller Gorg{\^o}nio, and {Sales Jr.,Marcello A. de}.
+\newblock Towards the upnp-up: Enabling user profile to support customized
+  services in upnp networks.
+\newblock In IEEE, editor, {\em 2008 The Second International Conference on
+  Mobile Ubiquitous Computing, Systems, Services and Technologies (UBICOMM)},
+  pages 206--211.
+
+\bibitem[YFW]{yi&fa&we}
+Lu~Yiqin, Fang Fang, and Liu Wei.
+\newblock Home networking and control based on upnp: An implementation.
+\newblock In IEEE, editor, {\em 2009 Second International Workshop on Computer
+  Science and Engineering}, pages 385--389.
+
+\end{thebibliography}
