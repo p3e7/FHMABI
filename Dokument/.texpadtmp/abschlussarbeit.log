@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.24)  20 DEC 2014 15:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.24)  5 JAN 2015 23:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**abschlussarbeit.tex
-(./abschlussarbeit.tex
+**"/Users/peet/Documents/Buisness Intelligence/Dokument/abschlussarbeit.tex"
+(/Users/peet/Documents/Buisness Intelligence/Dokument/abschlussarbeit.tex
 LaTeX2e <2011/06/27>
 Babel <3.9f> and hyphenation patterns for 78 languages loaded.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrbook.cls
@@ -1249,6 +1249,9 @@ LaTeX Warning: Label `Kapitel:Einleitung' multiply defined.
 
 LaTeX Warning: Label `Abschnitt:Motivation' multiply defined.
 
+
+LaTeX Warning: Label `pic:UsaTesters' multiply defined.
+
 )
 \openout1 = `abschlussarbeit.aux'.
 
@@ -1371,10 +1374,40 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              Support for \float@addtolists may be removed from
 (scrbook)              `scrbook' soon .
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+
+ []
+
+
+Overfull \vbox (2.70238pt too high) has occurred while \output is active []
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 6.
+(babel)             in language  on input line 12.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 6.
+(babel)             in language  on input line 12.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 12.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 12.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.12 
+      [1
+
+
+] <files/DWOverview.png, id=93, 928.46875pt x 463.7325pt>
+File: files/DWOverview.png Graphic file (type png)
+ <use files/DWOverview.png>
+Package pdftex.def Info: files/DWOverview.png used on input line 16.
+(pdftex.def)             Requested size: 334.60571pt x 167.12047pt.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 17.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 23.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 23.
 ) (./inhalt/sap.tex
 Overfull \vbox (2.70238pt too high) has occurred while \output is active []
 
@@ -1386,14 +1419,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            {SAP} [1
-
-
-]
+ [2 <./files/DWOverview.png>]
 Kapitel 2.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
@@ -1414,7 +1440,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
- [2
+ [3
 
 ]
 Kapitel 3.
@@ -1437,7 +1463,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
- [3
+ [4
 
 ]
 Kapitel 4.
@@ -1460,7 +1486,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 156.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 156.
- [4
+ [5
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
@@ -1469,7 +1495,7 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 156.
  (/Users/peet/Documents/Buisness Intelligence/Dokument/.texpadtmp/abschlussarbeit.lof
 
-Package natbib Warning: Citation `Nielsen:uc' on page 5 undefined on input line 6.
+Package natbib Warning: Citation `Nielsen:uc' on page 6 undefined on input line 7.
 
 )
 \tf@lof=\write8
@@ -1486,7 +1512,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 157.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 157.
- [5
+ [6
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
@@ -1497,62 +1523,42 @@ Package babel Info: Redefining ngerman shorthand "~
 \tf@lot=\write9
 \openout9 = `abschlussarbeit.lot'.
 
- (./abschlussarbeit.bbl
+ (/Users/peet/Documents/Buisness Intelligence/Dokument/.texpadtmp/abschlussarbeit.bbl
 Overfull \vbox (2.70238pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2.
- [6
-
-]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 5.
-
-Overfull \vbox (2.70238pt too high) has occurred while \output is active []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 49.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 49.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 49.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 49.
+(babel)             in language  on input line 1.
  [7
 
 ]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1.
+
+
+Package natbib Warning: Empty `thebibliography' environment on input line 10.
+
+) (./inhalt/anhang.tex
 Overfull \vbox (2.70238pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 106.
- [8]) (./inhalt/anhang.tex
-Overfull \vbox (2.70238pt too high) has occurred while \output is active []
+(babel)             in language  on input line 1.
+ [8
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1.
- [9] <files/AttrakDiffPrintversion.pdf, id=159, page=3, 597.45204pt x 845.1575pt>
+] <files/AttrakDiffPrintversion.pdf, id=133, page=3, 597.45204pt x 845.1575pt>
 File: files/AttrakDiffPrintversion.pdf Graphic file (type pdf)
  <use files/AttrakDiffPrintversion.pdf, page 3>
 Package pdftex.def Info: files/AttrakDiffPrintversion.pdf, page3 used on input line 1.
@@ -1581,16 +1587,14 @@ File: files/AttrakDiffPrintversion.pdf Graphic file (type pdf)
  <use files/AttrakDiffPrintversion.pdf, page 3>
 Package pdftex.def Info: files/AttrakDiffPrintversion.pdf, page3 used on input line 1.
 (pdftex.def)             Requested size: 597.47792pt x 845.19412pt.
- [10 <./files/AttrakDiffPrintversion.pdf>] <files/usa/anzahlTester.png, id=197, 712.6625pt x 394.47375pt>
+ [9 <./files/AttrakDiffPrintversion.pdf>] <files/usa/anzahlTester.png, id=172, 712.6625pt x 394.47375pt>
 File: files/usa/anzahlTester.png Graphic file (type png)
  <use files/usa/anzahlTester.png>
 Package pdftex.def Info: files/usa/anzahlTester.png used on input line 6.
 (pdftex.def)             Requested size: 334.60571pt x 185.21007pt.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 7.
 
 
-Package natbib Warning: Citation `Nielsen:uc' on page 11 undefined on input line 7.
+Package natbib Warning: Citation `Nielsen:uc' on page 10 undefined on input line 7.
 
 )
 
@@ -1608,7 +1612,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 169.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 169.
- [11 <./files/usa/anzahlTester.png>]
+ [10 <./files/usa/anzahlTester.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
  (/Users/peet/Documents/Buisness Intelligence/Dokument/.texpadtmp/abschlussarbeit.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
@@ -1621,18 +1625,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 33687 strings out of 493315
- 728197 string characters out of 6137904
+ 33592 strings out of 493315
+ 727297 string characters out of 6137904
  1010581 words of memory out of 5000000
- 36268 multiletter control sequences out of 15000+600000
+ 36196 multiletter control sequences out of 15000+600000
  31490 words of font info for 41 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 68i,18n,78p,851b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on "/Users/peet/Documents/Buisness Intelligence/Dokument/.texpadtmp/abschlussarbeit.pdf" (13 pages, 170529 bytes).
+ 68i,18n,78p,906b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on "/Users/peet/Documents/Buisness Intelligence/Dokument/.texpadtmp/abschlussarbeit.pdf" (12 pages, 284123 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 184 compressed objects within 2 object streams
- 51 named destinations out of 1000 (max. 500000)
- 217 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 199 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
+ 222 words of extra memory for PDF output out of 10000 (max. 10000000)
 
