@@ -1,6 +1,8 @@
 \chapter{SAP}
 \label{Kapitel:Einleitung}
-Text
+
+SAP NetWeaver Business Intelligence (kurz: SAP BI) (vormals: Business Information Warehouse, kurz BW) ist die Data-Warehouse-Anwendung (kurz DW) der SAP AG und Teil von SAP NetWeaver. BW besteht unter anderem aus Komponenten zum Datenmanagement (Data Warehousing Workbench), zur Definition von Benutzerabfragen über einen OLAP-Prozessor (Business Explorer, kurz BEx), aus einer Data-Mining-Umgebung (Analyseprozessdesigner, kurz APD) und einer Komponente zur Kontrolle der Ladeprozesse. Die derzeitige Version des SAP Business Intelligence hat die Releasenummer 7.3 und ist Teil des SAP NetWeaver 7.3. 
+Q: \url{http://de.wikipedia.org/wiki/SAP_NetWeaver_Business_Intelligence}
 
 
 \section{Unterkapitel}
@@ -8,3 +10,31 @@ Text
 
 
 Text
+
+\chapter{Modellierung}
+> RSA1\\
+Metadaten erstellen\\
+InfoProvider, InfoObject, InfoSource\\
+PSA :Persistent Staging Area
+Die Persistent Staging Area (dt. dauerhafter Bereitstellungsbereich, kurz PSA) ist in SAP BW eine Datenbanktabelle, die der Struktur (Transferstruktur) der Schnittstelle zum Quellsystem (meistens ein SAP R/3-System) entspricht. In dieser Tabelle werden die Daten beim Datenladen abgelegt, wenn dies in den Einstellungen zum Ladelauf (Reiter Verarbeitung des InfoPackages) so angegeben ist.
+
+Die PSA-Tabelle wird je Datenquelle (DataSource) und Quellsystem angelegt, da die Datenquellen unterschiedlich aufgebaut sein können. Die Quelldaten werden unverändert im PSA abgelegt und erst dann anhand von Transferregeln verarbeitet und danach in einer weiteren Struktur (Transformation) zum Laden in die Datenziele bereitgestellt. Somit bestehen die Originaldaten im BW weiterhin und können zum Neuaufbau zum Beispiel von Merkmalen (InfoObjects), Datenwürfeln (Infoprovidern) und DSO-Objekten verwendet werden. Es ist kein neuerlicher Ladelauf aus dem Quellsystem erforderlich. Die PSA-Tabelle kann also als Zwischenspeicher verwendet werden, jedoch nicht als Datenquelle, auf die direkt Auswertungen zugreifen können. Des Weiteren kann beim Auftreten von fehlerhaften Daten aus dem Quellsystem im PSA eine manuelle Datenbereinigung durchgeführt werden.
+
+Die PSA-Tabelle kann in regelmäßigen Abständen gelöscht werden, indem Löschprozess in einer Prozesskette eingeplant wird. Dies erfolgt je Datenquelle (DataSource) und Quellsystem. \\ 
+Aus PSA Teil direkt aus Wikipedia
+
+\chapter{Monitoring}
+>RSMON\\
+Hier können Daten und Datenladeprozesse überwacht werden.
+
+\chapter{Buisness Content}
+> RSORBCT\\
+Eine Art Informationsdatenbank?
+- Ist vorkonfiguriert und basiert auf standardmodellen und metadaten
+
+\chapter{Metadata Repository}
+>RSOR\\
+Zeigt alle Metadaten in Html an und verknüpft sie miteinander. Volle HTML funktionalität (Export und Graphiken usw.)\\
+
+Gute Quelle:
+\url{https://help.sap.com/saphelp_nw70/helpdata/en/80/1a60cae07211d2acb80000e829fbfe/content.htm?frameset=/en/a8/6b023b6069d22ee10000000a11402f/frameset.htm&current_toc=/en/e3/e60138fede083de10000009b38f8cf/plain.htm&node_id=53&show_children=true#jump56}
