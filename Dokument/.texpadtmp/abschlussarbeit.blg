@@ -8,10 +8,9 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ../bib/bib.bib
-Warning--I didn't find a database entry for "Nielsen:uc"
 You've used 1 entry,
             4793 wiz_defined-function locations,
-            898 strings with 6607 characters,
+            896 strings with 6587 characters,
 and the built_in function-call counts, 625 in all, are:
 = -- 57
 > -- 19
@@ -50,4 +49,3 @@ warning$ -- 0
 while$ -- 5
 width$ -- 2
 write$ -- 18
-(There was 1 warning)
